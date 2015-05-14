@@ -1,14 +1,14 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Quartz.Net-Ninject-Extensions</id>
-    <version>0.3.0.0</version>
-    <title>Quartz.Net Ninject Extension</title>
+    <id>quartz-ninject-extensions</id>
+    <version>0.3.1.0</version>
+    <title>Quartz.Net Ninject Extensions</title>
     <authors>Mark Huber, Lewis Jackson</authors>
     <owners>Dealertrack Interactive</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>[This is a fork, credit goes to Mark and Lewis] Ninject.Extensions.Quartz provides a Quartz JobFactory to create your Quartz jobs from your Ninject IoC container</description>
-    <releaseNotes>0.2.0 - Added assemblies for 3.5, 4.0, and 4.5</releaseNotes>
+    <releaseNotes>0.3.1 - Fork</releaseNotes>
     <licenseUrl>https://github.com/ciriarte/Ninject.Extensions.Quartz/blob/master/LICENSE</licenseUrl>
     <copyright>Copyright Dealertrack Interactive 2013</copyright>
     <tags>Quartz Ninject</tags>
@@ -19,6 +19,6 @@
     </dependencies>
   </metadata>
   <files>
-  	<file src="bin\Release\**\Ninject.Extensions.Quartz.dll" target="lib" />
+    <file src="bin\Release\net45\Ninject.Extensions.Quartz.dll" target="lib\net45" />
   </files>
 </package>
