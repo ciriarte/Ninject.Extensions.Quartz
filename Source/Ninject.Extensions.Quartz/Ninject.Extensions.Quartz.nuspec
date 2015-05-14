@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Ninject.Extensions.Quartz</id>
+    <id>Quartz.Net-Ninject-Extensions</id>
     <version>0.3.0.0</version>
-    <title>Ninject.Extensions.Quartz</title>
+    <title>Quartz.Net Ninject Extension</title>
     <authors>Mark Huber, Lewis Jackson</authors>
     <owners>Dealertrack Interactive</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
